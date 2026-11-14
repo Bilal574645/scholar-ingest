@@ -1,0 +1,23 @@
+[project]
+name = "scholar-ingest"
+version = "0.1.0"
+description = "Ingest and quality-check institution publication data from OpenAlex, Crossref, PubMed and ORCID"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+mongo = ["pymongo>=4.6"]
+dev = ["pytest>=8", "playwright>=1.44", "pymongo>=4.6"]
+
+[project.scripts]
+scholar-ingest = "scholar_ingest.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,81 @@
+[
+  {
+    "doi": "10.1000/a",
+    "title": "Alpha Study",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Ada Example",
+        "orcid": "0000-0001-2345-6789"
+      },
+      {
+        "name": "Ben Sample",
+        "orcid": null
+      },
+      {
+        "name": "Cleo Third",
+        "orcid": null
+      },
+      {
+        "name": "Example A",
+        "orcid": null
+      }
+    ],
+    "sources": [
+      "openalex",
+      "pubmed"
+    ],
+    "conflicts": {
+      "year": [
+        2020,
+        2021
+      ]
+    }
+  },
+  {
+    "doi": "10.1000/b",
+    "title": "Beta Results",
+    "year": 2018,
+    "authors": [
+      {
+        "name": "Dana Beta",
+        "orcid": "0000-0002-1825-0097"
+      }
+    ],
+    "sources": [
+      "crossref",
+      "openalex"
+    ],
+    "conflicts": {}
+  },
+  {
+    "doi": "10.1000/c",
+    "title": "Delta Paper",
+    "year": 2022,
+    "authors": [
+      {
+        "name": null,
+        "orcid": "0000-0001-2345-6789"
+      }
+    ],
+    "sources": [
+      "orcid"
+    ],
+    "conflicts": {}
+  },
+  {
+    "doi": null,
+    "title": "Gamma Notes",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Gina Gamma",
+        "orcid": null
+      }
+    ],
+    "sources": [
+      "pubmed"
+    ],
+    "conflicts": {}
+  }
+]
